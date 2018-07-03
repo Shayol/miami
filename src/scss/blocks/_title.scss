@@ -1,0 +1,30 @@
+.title {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 100;
+    color: #000;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0;
+    &__icon {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &::after, &::before {
+        content: "";
+        width: calc(50% - 20px);
+        position: absolute;
+        height: 2px;
+        background-color: #00aaef;
+        top: 100%;
+    }
+    &::before {
+        left: 0;
+    }
+    &::after {
+        right: 0;
+    }
+}

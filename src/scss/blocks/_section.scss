@@ -1,0 +1,25 @@
+.section {
+    padding: 130px 0;
+    position: relative;
+
+    &__inner {
+        display: flex;
+    }
+
+    &\--grey {
+        background-color: #eee;
+    }
+
+    &__title {
+        left: 50%;
+        top: -.5em;
+        transform: translateX(-50%);        
+    }
+
+    &__left {
+        width: 50%;
+    }
+    &__right {
+        width: 33%;
+    }
+}

@@ -1,0 +1,18 @@
+.best {
+    &__motto {
+        width: 33%;
+        font-size: 48px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    &__motto\--blue {
+        font-weight: 100;
+        color: #00aaef;
+    }
+    &__text {
+        width: 66%;
+    }
+    &__bold-text {
+        font-weight: 600;
+    }
+}
