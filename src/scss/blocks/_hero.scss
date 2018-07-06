@@ -3,3 +3,15 @@
     background-size: cover;
     background-position: 50% 100%;
 }
+@media (max-width: 720px) {
+    position: relative;
+    .hero::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(#000,.5);
+        content: "";
+    }
+}

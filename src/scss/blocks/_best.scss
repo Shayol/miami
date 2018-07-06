@@ -15,4 +15,15 @@
     &__bold-text {
         font-weight: 600;
     }
+    @media (max-width: 960px) {
+        &__br {
+            display: none;
+        }
+        &__motto {
+            width: auto;
+        }
+        &__text {
+            width: auto;
+        }
+    }
 }

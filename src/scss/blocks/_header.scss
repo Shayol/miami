@@ -24,4 +24,26 @@
         border-bottom: 1px dashed white;
         opacity: 0.6;
     }
+    @media (max-width: 720px) {
+        top: 30px;
+        display: block;
+        &__logo-image {
+            width: 60px;
+        }
+        &__logo {
+            left: 0;
+            transform: none;
+            top: 0;
+        }
+        &__phone {
+            float: right;
+            margin-bottom: 10px;
+            padding-top: 10px;
+        }
+        &__call {
+            clear: right;
+            float: right;
+        }
+       
+    }
 }

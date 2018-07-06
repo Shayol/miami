@@ -1,0 +1,39 @@
+.testimonials {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        text-align: center;
+        padding: 0 20px;
+    }
+    &__photo {
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+        position: relative;
+        &::before {
+            content: url("../img/quotes.svg");
+            position: absolute;
+            left: -35px;
+            top: 50%;
+            margin-top: -15px;
+            width: 36px;
+            height: 36px;
+        }
+    }
+    &__name {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 16px;
+        color: 0;
+    }
+    &__post {
+        font-style: italic;
+        color: #95959c;
+    }
+    &__description {
+        line-height: 1.37;
+        margin-top: 25px;
+    }
+}

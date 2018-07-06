@@ -30,4 +30,9 @@
         font-weight: normal;
         margin-bottom: 1em;
     }
+    @media (max-width: 960px) {
+        &__ol {
+            margin-left: 2em;
+        }
+    }
 }

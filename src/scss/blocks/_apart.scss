@@ -1,0 +1,37 @@
+.apart {
+    margin-bottom: 30px;
+    &__photos {
+        display: flex;
+        margin-bottom: 12px;
+    }
+    &__photo {
+        max-height: 260px;
+        flex: 1;
+        &:first-child {
+            margin-right: 20px;
+        }
+        &\--big {
+            flex: 2;
+        }
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    &__address\--blue {
+        font-weight: 300;
+        color: #00aaef;
+    }
+    @media (max-width: 720px) {
+        &__img {
+            min-height: 100px;
+        }
+        &__photo {
+            min-height: 100px;
+        }
+    }
+}
