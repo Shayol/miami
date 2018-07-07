@@ -19,9 +19,10 @@
     }
 
     @media (max-width: 720px) {
-        position: static;
-        display: block;
-        padding-top: 200px;
+        bottom: none;
+        top: 200px;  
+        display: block;      
+
 
         &__item {
             margin-bottom: 10px;

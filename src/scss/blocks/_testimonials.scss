@@ -36,4 +36,12 @@
         line-height: 1.37;
         margin-top: 25px;
     }
+    @media (max-width: 880px) {
+        &__inner {
+            display: block;
+        }
+        &__item {
+            margin-bottom: 30px;
+        }
+    }
 }

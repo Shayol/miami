@@ -28,7 +28,8 @@
         font-size: 32px;
         line-height: 36px;
         font-weight: normal;
-        margin-bottom: 1em;
+        margin: 0 0 1em 0;
+        padding: 0;
     }
     @media (max-width: 960px) {
         &__ol {
